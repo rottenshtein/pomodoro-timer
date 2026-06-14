@@ -2,6 +2,13 @@
 Simple pomodoro timer.
 
 ---
+
+# Features
+- Pause/resume via linux signals
+- Notifications via libnotify
+- Configuration file
+
+---
 # Requirements
 - libnotify
 - mINI
@@ -29,3 +36,5 @@ $PWD
 ```
 
 Or just pass it with `--config <path>`.
+
+To pause/resume timer you can send SIGUSR1 signal.
