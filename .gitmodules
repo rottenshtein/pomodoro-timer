@@ -1,0 +1,3 @@
+[submodule "src/include/mini"]
+	path = src/include/mini
+	url = https://github.com/metayeti/mINI
